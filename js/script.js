@@ -102,5 +102,8 @@ searchInput.addEventListener('keyup', filter)
         } else {
           studentList[i].style.display = "none";
         }
+        if(!searchInput.value) {
+          location.reload();
+        }
       }
   };
