@@ -1,4 +1,5 @@
 //Creating global varibles to obtain the list items from the HTML
+
 const list = document.querySelector(".student-list");
 const listChildren = list.children;
 //Setting out the max about li to show per page
